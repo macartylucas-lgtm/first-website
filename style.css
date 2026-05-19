@@ -32,10 +32,6 @@ header ul li a{
     color: white;
     text-decoration: none;
 }
-.hero{
-    margin: 20px;
-    height: 300px;
-}
 .hero .title{
     padding: 2%;
     margin-bottom: 20px;
@@ -48,19 +44,18 @@ header ul li a{
     box-shadow: 0 4px 30px rgba(255, 255, 255, 0.647);
 }
 .title h1{
-    font-size: 36px;
+    font-size: clamp(2rem, 5vh, 3rem);
     font-weight: 700;
 }
 .title p{
     font-size: 20px;
     font-weight: 400;
-    text-align: justify;
+    text-align: left;
 }
 .hero .buttons{
     display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    margin-left: 50%;
+    justify-content: center;
+    gap: 20px;
 }
 .hero button{
     font-size: 24px;
