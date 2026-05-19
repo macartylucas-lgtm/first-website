@@ -32,6 +32,9 @@ header ul li a{
     color: white;
     text-decoration: none;
 }
+header h1{
+    font-size: clamp(1.5rem, 5vh,3rem);
+}
 .hero .title{
     padding: 2%;
     margin-bottom: 20px;
