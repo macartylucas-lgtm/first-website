@@ -5,7 +5,7 @@
 }
 
 body{
-    background-color: black;
+    background-color: rgb(0, 0, 0);
     color: white;
     background-image:url(image/miyamoto-musashi-3840x2160-15204.jpg);
     background-size: cover;
@@ -32,6 +32,15 @@ header ul li{
 header ul li a{
     color: white;
     text-decoration: none;
+    display: inline-block;
+    transition: all 0.3s ease;
+}
+
+header a:hover{
+    color: red;
+    transform: scale(1.2); 
+    text-shadow : 0 0 5px red;
+    
 }
 header h1{
     font-size: clamp(0.5rem, 5vw,3rem);
@@ -58,6 +67,7 @@ header h1{
     text-align: left;
 }
 .hero .buttons{
+    width: 100%;
     display: flex;
     justify-content: center;
     gap: 10;
